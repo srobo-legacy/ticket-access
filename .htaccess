@@ -1,0 +1,14 @@
+AuthType basic
+AuthName "Student Robotics Ticketing system"
+AuthBasicProvider ldap
+
+AuthLDAPURL ldap://localhost:389/ou=users,o=sr?uid?base?(objectClass=*)
+Require valid-user
+
+DirectoryIndex get-ticket.php
+
+<Files tickets>
+Order deny,allow
+Deny from all
+Satisfy All
+</Files>
