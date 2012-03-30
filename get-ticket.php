@@ -2,7 +2,7 @@
 
 $user = $_SERVER['REMOTE_USER'];
 
-$base_dir = dirname(__FILE__) . '/tickets';
+$base_dir = dirname(__FILE__) . '/bees';
 
 $ticket_name = "$base_dir/$user.pdf";
 
