@@ -1,3 +1,7 @@
+# Access to the ticket system is disabled until
+# we are ready to give out tickets for SR2013
+Deny from all
+
 AuthType basic
 AuthName "Student Robotics Ticketing system"
 AuthBasicProvider ldap
