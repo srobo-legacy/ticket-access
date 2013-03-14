@@ -1,6 +1,5 @@
-# Access to the ticket system is disabled until
-# we are ready to give out tickets for SR2013
-Deny from all
+# Uncomment below to prevent access to the ticket system
+# Deny from all
 
 AuthType basic
 AuthName "Student Robotics Ticketing system"
