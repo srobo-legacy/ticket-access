@@ -15,3 +15,5 @@ Order deny,allow
 Deny from all
 Satisfy All
 </Files>
+
+Options -Indexes
