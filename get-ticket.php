@@ -2,7 +2,7 @@
 
 $user = $_SERVER['REMOTE_USER'];
 
-$base_dir = dirname(__FILE__) . '/bees';
+$base_dir = dirname(__FILE__) . '/tickets/webapi/users';
 
 $ticket_name = "$base_dir/$user.pdf";
 
