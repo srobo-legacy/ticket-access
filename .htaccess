@@ -1,5 +1,5 @@
 # Uncomment below to prevent access to the ticket system
-Deny from all
+# Deny from all
 
 AuthType basic
 AuthName "Student Robotics Ticketing system"
