@@ -9,7 +9,7 @@ $ticket_name = "$base_dir/$user.pdf";
 if (!file_exists($ticket_name)) {
     # run the generation script
 
-    exec("cd tickets ; python generate.py $user -y 2015 -d 'April 25th-26th (Doors open 9:00)' -l 'https://www.studentrobotics.org/comp' -o $ticket_name 2>&1", $output, $rv);
+    exec("cd tickets ; python generate.py $user -y 2016 -d 'April 30th - May 1st (Doors open 9:00)' -l 'https://www.studentrobotics.org/comp' -o $ticket_name 2>&1", $output, $rv);
     if (!file_exists($ticket_name)) {
         header('HTTP/1.1 403 Forbidden');
         header('Content-type: text/html');
