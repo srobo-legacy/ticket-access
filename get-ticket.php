@@ -23,4 +23,3 @@ header('Content-type: application/pdf');
 header('Content-length: ' . filesize($ticket_name));
 header('Content-Disposition: attachment; filename="ticket.pdf"');
 readfile($ticket_name);
-
