@@ -1,3 +1,3 @@
 [submodule "tickets"]
 	path = tickets
-	url = git://git.srobo.org/tickets.git
+	url = https://github.com/srobo/tickets.git
